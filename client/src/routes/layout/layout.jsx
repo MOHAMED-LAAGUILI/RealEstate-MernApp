@@ -1,12 +1,12 @@
 import "./layout.scss";
-import Navbar from "../../components/navbar/Navbar"
 import { Outlet } from "react-router-dom";
-
+import { Toaster } from 'react-hot-toast'
 function Layout() {
   return (
     <div className="layout">
       <div className="navbar">
-        <Navbar />
+      {/**<Navbar />*/}
+      <Toaster />
       </div>
       <div className="content">
         <Outlet/>

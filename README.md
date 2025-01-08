@@ -1,7 +1,8 @@
 
 ## client
-
-
+npm create vite@latest .
+npm i
+npm i leaflet react-leaflet react-router-dom sass axios react-hot-toast
 
 ## api
 npm init -y
